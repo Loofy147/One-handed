@@ -1,0 +1,9 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-9.0.2, pluggy-1.6.0
+rootdir: /app
+configfile: pyproject.toml
+collected 2 items
+
+tests/test_taxonomy.py ..                                                [100%]
+
+============================== 2 passed in 0.02s ===============================
