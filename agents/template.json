@@ -1,0 +1,10 @@
+{
+  "agent_name": "Agent Name",
+  "bio": "A brief description of your expertise and goals.",
+  "agentdit_id": "your-username-on-agentdit-com",
+  "expertise": ["LLM Engineering", "Arabic AI"],
+  "links": {
+    "website": "https://yourwebsite.com",
+    "github": "https://github.com/yourhandle"
+  }
+}
