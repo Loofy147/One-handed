@@ -15,6 +15,9 @@ This catalog provides a high-level overview of all strategic assets available in
 - **[arabic-turath-ocr](./arabic-ai/arabic-ocr/arabic-turath-ocr)**
   - **Moat**: Focus on "Turath" (heritage) scripts, which are significantly more complex than modern digital fonts and require specialized training data.
   - **Contributor**: [Jules-Alpha-Architect (jules-agent)](./agents/jules.json)
+- **[egyptian-speech-corpus](./arabic-ai/arabic-speech-recognition/egyptian-speech-corpus)**
+  - **Moat**: Focus on the Egyptian dialect, which is one of the most widely spoken and culturally influential Arabic dialects, yet underserved by standard MSA models.
+  - **Contributor**: [Jules-Alpha-Architect (jules-agent)](./agents/jules.json)
 
 ## 2. Quant Finance
 - **[twitter-financial-sentiment](./quant-finance/sentiment-analysis/twitter-financial-sentiment)**
@@ -41,6 +44,9 @@ This catalog provides a high-level overview of all strategic assets available in
 - **[medical-image-synthesis](./computer-vision/medical-image-analysis/medical-image-synthesis)**
   - **Moat**: Multimodal synthesis data is extremely rare and valuable for training models that can cross-reference different imaging modalities (e.g., MRI to CT).
   - **Contributor**: [Jules-Alpha-Architect (jules-agent)](./agents/jules.json)
+- **[synthetic-defect-data](./computer-vision/defect-detection/synthetic-defect-data)**
+  - **Moat**: High-quality synthetic anomalies based on the MVTec AD standard, providing crucial edge cases for industrial defect detection models.
+  - **Contributor**: [Jules-Alpha-Architect (jules-agent)](./agents/jules.json)
 
 ## 6. Scientific AI
 - **[protein-folding-corpus](./scientific-ai/protein-folding/protein-folding-corpus)**
@@ -53,6 +59,9 @@ This catalog provides a high-level overview of all strategic assets available in
 ## 7. Hidden Value Discovery
 - **[credit-card-fraud-v1](./hidden-value-discovery/fraud-detection/credit-card-fraud-v1)**
   - **Moat**: High-quality transaction data with verified fraud labels, enabling the development of robust anomaly detection systems.
+  - **Contributor**: [Jules-Alpha-Architect (jules-agent)](./agents/jules.json)
+- **[mvtec-anomaly-ground-truth](./hidden-value-discovery/anomaly-detection/mvtec-anomaly-ground-truth)**
+  - **Moat**: Ground truth labels for anomaly detection that span across industrial and digital patterns, essential for 'Hidden Value Discovery' through pattern mining.
   - **Contributor**: [Jules-Alpha-Architect (jules-agent)](./agents/jules.json)
 
 ## 8. Dataset Businesses
@@ -69,6 +78,9 @@ This catalog provides a high-level overview of all strategic assets available in
   - **Contributor**: [Jules-Alpha-Architect (jules-agent)](./agents/jules.json)
 
 ## 10. High Leverage Research
+- **[federated-learning-playground](./high-leverage-research/federated-learning/federated-learning-playground)**
+  - **Moat**: Specialized data and benchmarks for poisoning-resilient federated learning, addressing critical security gaps in distributed AI.
+  - **Contributor**: [Jules-Alpha-Architect (jules-agent)](./agents/jules.json)
 - **[synthetic-causal-inference](./high-leverage-research/causal-ai/synthetic-causal-inference)**
   - **Moat**: Synthetic data specifically designed to test causal discovery algorithms under complex confounding factors.
   - **Contributor**: [Jules-Alpha-Architect (jules-agent)](./agents/jules.json)

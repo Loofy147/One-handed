@@ -1,0 +1,297 @@
+{
+  "ai-automation": [
+    {
+      "id": "manuelaschrittwieser/invoice-extraction-dataset-v2",
+      "query": "invoice extraction",
+      "downloads": 45
+    },
+    {
+      "id": "Aulvem/japanese-invoice-receipt-extraction-eval",
+      "query": "invoice extraction",
+      "downloads": 35
+    },
+    {
+      "id": "UniqueData/email-spam-classification",
+      "query": "email classification",
+      "downloads": 143
+    },
+    {
+      "id": "imnim/multiclass-email-classification",
+      "query": "email classification",
+      "downloads": 89
+    },
+    {
+      "id": "smolify/smolified-legal-smol-sovereign-offline-contract-analysis",
+      "query": "contract analysis",
+      "downloads": 14
+    },
+    {
+      "id": "drago-2435/smolified-legal-smol-sovereign-offline-contract-analysis",
+      "query": "contract analysis",
+      "downloads": 13
+    }
+  ],
+  "computer-vision": [
+    {
+      "id": "mabo7237/license-plates-700k",
+      "query": "license plate",
+      "downloads": 46285
+    },
+    {
+      "id": "tobni/algerian-license-plates",
+      "query": "license plate",
+      "downloads": 3144
+    },
+    {
+      "id": "anywaylabs/synthetic-mvtec-ad-defect-detection",
+      "query": "defect detection",
+      "downloads": 3401
+    },
+    {
+      "id": "google/code_x_glue_cc_defect_detection",
+      "query": "defect detection",
+      "downloads": 2208
+    },
+    {
+      "id": "khushaltrivedi/satellite-imagery-project",
+      "query": "satellite imagery",
+      "downloads": 10646
+    },
+    {
+      "id": "saidines12/satellite-imagery-segmentation",
+      "query": "satellite imagery",
+      "downloads": 133
+    }
+  ],
+  "quant-finance": [
+    {
+      "id": "zeroshot/twitter-financial-news-sentiment",
+      "query": "financial sentiment",
+      "downloads": 5031
+    },
+    {
+      "id": "TimKoornstra/financial-tweets-sentiment",
+      "query": "financial sentiment",
+      "downloads": 543
+    },
+    {
+      "id": "bnquys/stock-prediction-hyprid",
+      "query": "stock prediction",
+      "downloads": 1106
+    },
+    {
+      "id": "CodeIsAbstract/your_nifty50_stock_predictions",
+      "query": "stock prediction",
+      "downloads": 38
+    },
+    {
+      "id": "johnsmith414718/crypto-market-datasets",
+      "query": "crypto data",
+      "downloads": 11481
+    },
+    {
+      "id": "lanasx3/crypto-market-datasets",
+      "query": "crypto data",
+      "downloads": 11010
+    }
+  ],
+  "scientific-ai": [
+    {
+      "id": "kevinlu4588/ProteinFolding",
+      "query": "protein folding",
+      "downloads": 97
+    },
+    {
+      "id": "nileshsarkar-ai/protein-folding-experiments",
+      "query": "protein folding",
+      "downloads": 78
+    },
+    {
+      "id": "deep-principle/science_materials",
+      "query": "materials science",
+      "downloads": 342
+    },
+    {
+      "id": "SciKnowOrg/ontolearner-materials_science_and_engineering",
+      "query": "materials science",
+      "downloads": 270
+    },
+    {
+      "id": "Maitreyajayaraj/climate_collapse_modeling",
+      "query": "climate modeling",
+      "downloads": 11
+    }
+  ],
+  "llm-engineering": [
+    {
+      "id": "BAEM1N/Korean-RAG-LLM-Judge-Benchmark",
+      "query": "rag benchmark",
+      "downloads": 836
+    },
+    {
+      "id": "llmware/rag_instruct_benchmark_tester",
+      "query": "rag benchmark",
+      "downloads": 761
+    },
+    {
+      "id": "anonymoususerabcdedg/Unified_Agent_Evaluation_Framework",
+      "query": "agent framework",
+      "downloads": 9520
+    },
+    {
+      "id": "taronklm/better_prompt_optimization",
+      "query": "prompt optimization",
+      "downloads": 8
+    },
+    {
+      "id": "rishavkundu/prompt_optimization_dataset",
+      "query": "prompt optimization",
+      "downloads": 8
+    }
+  ],
+  "dataset-businesses": [
+    {
+      "id": "arsity/UDAPose-synthetic-data",
+      "query": "synthetic data",
+      "downloads": 7209
+    },
+    {
+      "id": "Xenn007/zyphar-synthetic-data",
+      "query": "synthetic data",
+      "downloads": 6766
+    },
+    {
+      "id": "lemon42-ai/Code_Vulnerability_Labeled_Dataset",
+      "query": "labeled dataset",
+      "downloads": 549
+    },
+    {
+      "id": "MuazAhmad7/Surah_Ikhlas-Labeled_Dataset",
+      "query": "labeled dataset",
+      "downloads": 103
+    },
+    {
+      "id": "nielsr/image-segmentation-toy-data",
+      "query": "image segmentation",
+      "downloads": 31741
+    },
+    {
+      "id": "introvoyz041/automatic-sem-image-segmentation",
+      "query": "image segmentation",
+      "downloads": 551
+    }
+  ],
+  "open-source-products": [
+    {
+      "id": "CedM/oc_mlops_projet_2",
+      "query": "mlops",
+      "downloads": 5202
+    },
+    {
+      "id": "AYI-NEDJIMI/mlops-infrastructure-fr",
+      "query": "mlops",
+      "downloads": 616
+    },
+    {
+      "id": "GSMA/vector_databases",
+      "query": "vector database",
+      "downloads": 95
+    },
+    {
+      "id": "OpenDCAI/dataflow-Text2SQL-vector-database-example",
+      "query": "vector database",
+      "downloads": 34
+    },
+    {
+      "id": "AnPhan123/evaluation-results-tool-call-ai",
+      "query": "evaluation tool",
+      "downloads": 2
+    }
+  ],
+  "arabic-ai": [
+    {
+      "id": "Jr23xd23/ArabicText-Large",
+      "query": "arabic text",
+      "downloads": 521
+    },
+    {
+      "id": "Tamazight-NLP/Tamazight-Speech-to-Arabic-Text",
+      "query": "arabic text",
+      "downloads": 380
+    },
+    {
+      "id": "ammarthabet/egyptian-arabic-speech",
+      "query": "arabic speech",
+      "downloads": 3226
+    },
+    {
+      "id": "wissamantoun/qasr-arabic-speech-continuations",
+      "query": "arabic speech",
+      "downloads": 1726
+    },
+    {
+      "id": "ArabicNLPWorld/arabic-russian-translation-corpus",
+      "query": "arabic translation",
+      "downloads": 190
+    },
+    {
+      "id": "Omar-youssef/English-Egyptian-Arabic-Translation-Pairs",
+      "query": "arabic translation",
+      "downloads": 102
+    }
+  ],
+  "hidden-value-discovery": [
+    {
+      "id": "jyunyilin/credit-card-fraud-detection",
+      "query": "fraud detection",
+      "downloads": 595
+    },
+    {
+      "id": "purulalwani/Synthetic-Financial-Datasets-For-Fraud-Detection-Cleaned-Split",
+      "query": "fraud detection",
+      "downloads": 532
+    },
+    {
+      "id": "sirbastiano94/anomaly-detection",
+      "query": "anomaly detection",
+      "downloads": 2238
+    },
+    {
+      "id": "TheoM55/mvtec_anomaly_detection",
+      "query": "anomaly detection",
+      "downloads": 1444
+    }
+  ],
+  "high-leverage-research": [
+    {
+      "id": "ClarusC64/causal-inference-variant-interpretation-genomics-v01",
+      "query": "causal inference",
+      "downloads": 14
+    },
+    {
+      "id": "REZ3LIET/NS-Causal-Inference-Synthetic",
+      "query": "causal inference",
+      "downloads": 3
+    },
+    {
+      "id": "FL-Security/Poisoning_Resilient_Federated_Learning_Playground",
+      "query": "federated learning",
+      "downloads": 5456
+    },
+    {
+      "id": "SahilBhatane/Federated_Meta-learning_on_wearable_devices",
+      "query": "federated learning",
+      "downloads": 137
+    },
+    {
+      "id": "UoM-CS-NeuroSymbolicAI/pred_qwen3_5_lora",
+      "query": "neuro-symbolic",
+      "downloads": 2569
+    },
+    {
+      "id": "UoM-CS-NeuroSymbolicAI/pred_qwen3vl_ins_lora_10k",
+      "query": "neuro-symbolic",
+      "downloads": 2379
+    }
+  ]
+}

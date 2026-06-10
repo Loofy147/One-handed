@@ -1,0 +1,8 @@
+{
+  "source": "Hugging Face",
+  "repository": "anywaylabs/synthetic-mvtec-ad-defect-detection",
+  "category": "computer-vision",
+  "sub_category": "defect-detection",
+  "asset_name": "synthetic-defect-data",
+  "tags": ["cv", "defect-detection", "industrial-ai", "synthetic"]
+}

@@ -1,0 +1,8 @@
+{
+  "source": "Hugging Face",
+  "repository": "sirbastiano94/anomaly-detection",
+  "category": "hidden-value-discovery",
+  "sub_category": "anomaly-detection",
+  "asset_name": "mvtec-anomaly-ground-truth",
+  "tags": ["anomaly-detection", "ground-truth", "hidden-patterns"]
+}

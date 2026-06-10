@@ -1,0 +1,8 @@
+{
+  "source": "Hugging Face",
+  "repository": "ammarthabet/egyptian-arabic-speech",
+  "category": "arabic-ai",
+  "sub_category": "arabic-speech-recognition",
+  "asset_name": "egyptian-speech-corpus",
+  "tags": ["arabic", "egyptian", "speech", "asr"]
+}

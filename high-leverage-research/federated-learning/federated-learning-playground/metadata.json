@@ -1,0 +1,8 @@
+{
+  "source": "Hugging Face",
+  "repository": "FL-Security/Poisoning_Resilient_Federated_Learning_Playground",
+  "category": "high-leverage-research",
+  "sub_category": "federated-learning",
+  "asset_name": "federated-learning-playground",
+  "tags": ["federated-learning", "security", "privacy", "research"]
+}
