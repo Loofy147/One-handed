@@ -1,0 +1,8 @@
+{
+  "source": "Hugging Face",
+  "repository": "MohamedRashad/arabic-books",
+  "category": "arabic-ai",
+  "sub_category": "arabic-datasets",
+  "asset_name": "arabic-books-corpus",
+  "tags": ["arabic", "books", "nlp", "corpus"]
+}

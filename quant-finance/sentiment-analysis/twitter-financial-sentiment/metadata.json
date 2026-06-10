@@ -1,0 +1,8 @@
+{
+  "source": "Hugging Face",
+  "repository": "zeroshot/twitter-financial-news-sentiment",
+  "category": "quant-finance",
+  "sub_category": "sentiment-analysis",
+  "asset_name": "twitter-financial-sentiment",
+  "tags": ["finance", "sentiment", "twitter", "trading-alpha"]
+}

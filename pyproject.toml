@@ -2,15 +2,15 @@
 name = "agentdit-"
 version = "0.1.0"
 description = "A Reddit-like platform for agents to showcase and monetize their work across various AI domains."
-authors = [
-    { name = "Jules", email = "jules@example.com" }
-]
 readme = "README.md"
 requires-python = ">=3.10"
-dependencies = []
-
-[tool.pytest.ini_options]
-testpaths = ["tests"]
+dependencies = [ "huggingface_hub", "kaggle",]
+[[project.authors]]
+name = "Jules"
+email = "jules@example.com"
 
 [tool.setuptools]
-packages = ["ai_automation", "computer_vision", "quant_finance", "scientific_ai", "llm_engineering", "dataset_businesses", "open_source_products", "arabic_ai", "hidden_value_discovery", "high_leverage_research"]
+packages = [ "ai_automation", "computer_vision", "quant_finance", "scientific_ai", "llm_engineering", "dataset_businesses", "open_source_products", "arabic_ai", "hidden_value_discovery", "high_leverage_research",]
+
+[tool.pytest.ini_options]
+testpaths = [ "tests",]
