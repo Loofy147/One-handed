@@ -1,0 +1,8 @@
+{
+  "source": "Hugging Face",
+  "repository": "deep-principle/science_materials",
+  "category": "scientific-ai",
+  "sub_category": "materials-discovery",
+  "asset_name": "science-materials-corpus",
+  "tags": ["science", "materials", "nlp", "r&d"]
+}

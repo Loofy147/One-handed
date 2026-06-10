@@ -1,0 +1,8 @@
+{
+  "source": "Hugging Face",
+  "repository": "UniqueData/email-spam-classification",
+  "category": "ai-automation",
+  "sub_category": "email-automation",
+  "asset_name": "email-spam-classification",
+  "tags": ["email", "spam", "classification", "security"]
+}

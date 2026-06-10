@@ -1,0 +1,8 @@
+{
+  "source": "Hugging Face",
+  "repository": "franku123/medical-image-analysis-multimodal-synthesis-data",
+  "category": "computer-vision",
+  "sub_category": "medical-image-analysis",
+  "asset_name": "medical-image-synthesis",
+  "tags": ["medical", "cv", "synthesis", "multimodal"]
+}

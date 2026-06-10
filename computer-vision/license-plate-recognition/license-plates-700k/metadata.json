@@ -1,0 +1,8 @@
+{
+  "source": "Hugging Face",
+  "repository": "mabo7237/license-plates-700k",
+  "category": "computer-vision",
+  "sub_category": "license-plate-recognition",
+  "asset_name": "license-plates-700k",
+  "tags": ["cv", "lpr", "anpr", "vehicles"]
+}
