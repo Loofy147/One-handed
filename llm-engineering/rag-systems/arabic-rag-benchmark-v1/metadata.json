@@ -1,0 +1,8 @@
+{
+  "source": "Hugging Face",
+  "repository": "Waleed1th/Arabic-Rag-Benchmark",
+  "category": "llm-engineering",
+  "sub_category": "rag-systems",
+  "asset_name": "arabic-rag-benchmark-v1",
+  "tags": ["arabic", "rag", "benchmark", "llm-eval"]
+}
