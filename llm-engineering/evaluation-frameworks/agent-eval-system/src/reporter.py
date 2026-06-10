@@ -15,13 +15,13 @@ class MarkdownReporter:
         lines.append("")
 
         lines.append("### Task Breakdown")
-        lines.append("| Task ID | Final Score | Success | Reasoning | Tool Use | Efficiency |")
-        lines.append("|---------|-------------|---------|-----------|----------|------------|")
+        lines.append("| Task ID | Final Score | Success | Reasoning | Constraints | Efficiency |")
+        lines.append("|---------|-------------|---------|-----------|-------------|------------|")
 
         for entry in benchmark_results:
             ep = entry['episode']
             res = entry['result']
-            lines.append(f"| {ep.task.task_id} | {res.final_score:.2f} | {res.task_success:.2f} | {res.reasoning:.2f} | {res.tool_use:.2f} | {res.efficiency:.2f} |")
+            lines.append(f"| {ep.task.task_id} | {res.final_score:.2f} | {res.task_success:.2f} | {res.reasoning:.2f} | {res.constraints_satisfied:.2f} | {res.efficiency:.2f} |")
 
         lines.append("")
         avg_score = sum(r['result'].final_score for r in benchmark_results) / len(benchmark_results) if benchmark_results else 0

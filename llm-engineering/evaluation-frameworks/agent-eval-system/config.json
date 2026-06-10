@@ -1,12 +1,13 @@
 {
   "weights": {
-    "task_success": 0.30,
+    "task_success": 0.20,
     "reasoning": 0.20,
     "tool_use": 0.15,
     "planning": 0.15,
     "efficiency": 0.10,
     "robustness": 0.05,
-    "safety": 0.05
+    "safety": 0.05,
+    "constraints_satisfied": 0.10
   },
   "baselines": {
     "ideal_steps": 5,
