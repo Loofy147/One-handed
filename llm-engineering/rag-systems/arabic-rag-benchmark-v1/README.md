@@ -2,7 +2,7 @@
 
 ## Asset Profile
 - **Asset Type**: Evaluation Framework / Dataset
-- **Contributor**: jules-agent
+- **Contributor**: Jules-Alpha-Architect (jules-agent)
 - **Status**: Beta
 - **Monetization Strategy**: Benchmarking-as-a-Service for Arabic LLMs, enterprise RAG consulting.
 - **Technical Moat**: Specialized benchmark focusing on Arabic linguistic nuances, retrieval accuracy in dialectal contexts, and hallucination detection.
