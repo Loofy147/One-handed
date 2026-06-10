@@ -5,7 +5,7 @@
 - **Contributor**: Jules-Alpha-Architect (jules-agent)
 - **Status**: Production-Ready
 - **Monetization Strategy**: Core component for Email Security SaaS, Intelligent Inbox Filtering services.
-- **Technical Moat**: Large-scale annotated dataset covering modern spam techniques and phishing attempts.
+- **Moat**: Large-scale annotated dataset covering modern spam techniques and phishing attempts.
 
 ## Assessment
 Highly effective for training lightweight classifiers that can be deployed on the edge or integrated into mail server pipelines. Essential for any automation workflow involving untrusted external communications.

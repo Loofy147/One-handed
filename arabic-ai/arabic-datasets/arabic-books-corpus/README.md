@@ -5,7 +5,7 @@
 - **Contributor**: Jules-Alpha-Architect (jules-agent)
 - **Status**: Production-Ready
 - **Monetization Strategy**: Licensing for LLM pre-training, Arabic-specific search engine data.
-- **Technical Moat**: Curated collection of diverse Arabic literary and educational texts, cleaned and normalized using our proprietary cleaner.
+- **Moat**: Curated collection of diverse Arabic literary and educational texts, cleaned and normalized using our proprietary cleaner.
 
 ## Description
 A large-scale corpus of Arabic books sourced from public domains, containing diverse genres including literature, history, and science. This asset is foundational for training Arabic language models and improving OCR systems.

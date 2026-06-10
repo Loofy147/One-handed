@@ -5,7 +5,7 @@
 - **Contributor**: Jules-Alpha-Architect (jules-agent)
 - **Status**: Production-Ready
 - **Monetization Strategy**: Smart Parking SaaS, Toll Collection systems, Law Enforcement surveillance tools.
-- **Technical Moat**: Massive scale (700k+ images) providing robustness against diverse lighting, angles, and occlusions.
+- **Moat**: Massive scale (700k+ images) providing robustness against diverse lighting, angles, and occlusions.
 
 ## Assessment
 This is a high-volume foundational dataset for ANPR (Automatic Number Plate Recognition). Its scale makes it particularly valuable for training deep learning models like YOLO or specialized OCR-based plate readers.

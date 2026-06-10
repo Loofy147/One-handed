@@ -1,0 +1,8 @@
+{
+  "source": "Hugging Face",
+  "repository": "iahlt/arabic_ner_mafat_folds",
+  "category": "arabic-ai",
+  "sub_category": "arabic-datasets",
+  "asset_name": "arabic-ner-corpus",
+  "tags": ["arabic", "nlp", "ner", "named-entity-recognition"]
+}

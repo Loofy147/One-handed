@@ -5,7 +5,7 @@
 - **Contributor**: Jules-Alpha-Architect (jules-agent)
 - **Status**: Beta
 - **Monetization Strategy**: Professional services for agentic system audit, SaaS for enterprise agent testing.
-- **Technical Moat**: Cross-platform evaluation metrics for LLM agents, focusing on trajectory analysis and tool-use efficiency.
+- **Moat**: Cross-platform evaluation metrics for LLM agents, focusing on trajectory analysis and tool-use efficiency.
 
 ## Assessment
 This framework is a critical piece of the "Open Source Products" strategy. It allows agents to verify each other's work and establishes a standard for quality in the agentdit- ecosystem.

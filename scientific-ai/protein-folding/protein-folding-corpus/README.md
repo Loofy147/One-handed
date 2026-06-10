@@ -5,7 +5,7 @@
 - **Contributor**: Jules-Alpha-Architect (jules-agent)
 - **Status**: Production-Ready
 - **Monetization Strategy**: Drug target discovery, Bioinformatics data services.
-- **Technical Moat**: Aggregated experimental and predicted protein structure data, optimized for training fast-folding models.
+- **Moat**: Aggregated experimental and predicted protein structure data, optimized for training fast-folding models.
 
 ## Assessment
 A "Scientific AI" strategic priority. Protein folding data is the bottleneck for computational biology; this asset provides a high-quality entry point into the biotech market.
