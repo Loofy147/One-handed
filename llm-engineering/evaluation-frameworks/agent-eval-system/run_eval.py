@@ -1,50 +1,48 @@
 import sys
 import os
-import json
-from src.models import Task, Episode, Step, StepType
 from src.evaluator import EvaluationEngine
 from src.aggregator import ScoringAggregator
+from src.runner import BenchmarkRunner
+from src.fingerprint import AgentFingerprinter
+from src.reporter import MarkdownReporter
 
 def main():
-    # Setup a sample episode with performance metrics
-    task = Task(
-        task_id="T1",
-        prompt="Calculate 123 * 456 and verify the result.",
-        expected_outcome="56088",
-        difficulty=1.5
-    )
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    data_dir = os.path.join(base_dir, "data")
+    config_path = os.path.join(base_dir, "config.json")
 
-    steps = [
-        Step(type=StepType.THOUGHT, content="First, I will multiply 123 by 456. Next, I will return the result."),
-        Step(type=StepType.ACTION, content="using calculator", tool_name="calculator", tool_input={"expr": "123 * 456"}, tool_output="56088"),
-        Step(type=StepType.FINAL_ANSWER, content="The result of 123 * 456 is 56088.")
-    ]
+    # Initialize components
+    evaluator = EvaluationEngine(config_path=config_path)
+    aggregator = ScoringAggregator(config_path=config_path)
+    runner = BenchmarkRunner(evaluator, aggregator)
+    fingerprinter = AgentFingerprinter()
+    reporter = MarkdownReporter()
 
-    episode = Episode(
-        episode_id="E1",
-        agent_id="test_agent",
-        task=task,
-        steps=steps,
-        final_output="The result of 123 * 456 is 56088.",
-        tokens_used=500,
-        start_time=0.0,
-        end_time=5.0
-    )
+    # Run benchmark
+    print(f"Running benchmark on episodes in {data_dir}...")
+    results = runner.run_benchmark(data_dir)
 
-    # Run evaluation
-    evaluator = EvaluationEngine()
-    aggregator = ScoringAggregator()
+    if not results:
+        print("No episodes found to evaluate.")
+        return
 
-    raw_result = evaluator.evaluate_episode(episode)
-    final_result = aggregator.aggregate(raw_result, episode)
+    # Generate fingerprint
+    episodes = [r['episode'] for r in results]
+    fingerprint = fingerprinter.generate_fingerprint(episodes)
 
-    # Output results
-    print(f"Agent ID: {episode.agent_id}")
-    print(f"Task ID: {episode.task.task_id}")
-    print(f"Final Score: {final_result.final_score:.2f}")
-    print("\nBreakdown:")
-    for metric, val in final_result.breakdown.items():
-        print(f"  - {metric}: {val:.2f}")
+    # Generate report
+    report = reporter.generate_report(results, fingerprint)
+
+    # Save report
+    report_path = os.path.join(base_dir, "evaluation_report.md")
+    with open(report_path, "w") as f:
+        f.write(report)
+
+    print(f"Evaluation complete! Report saved to {report_path}")
+    print("\n--- Summary ---")
+    print(f"Agent: {fingerprint['agent_id']}")
+    print(f"Bias: {fingerprint['behavioral_bias']}")
+    print(f"Avg Score: {sum(r['result'].final_score for r in results) / len(results):.2f}")
 
 if __name__ == "__main__":
     main()

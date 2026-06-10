@@ -1,9 +1,11 @@
 from .models import EvalResult, Episode
 from typing import Dict
+import json
+import os
 
 class ScoringAggregator:
-    def __init__(self, weights: Dict[str, float] = None):
-        self.weights = weights or {
+    def __init__(self, config_path: str = None):
+        self.weights = {
             "task_success": 0.30,
             "reasoning": 0.20,
             "tool_use": 0.15,
@@ -12,6 +14,10 @@ class ScoringAggregator:
             "robustness": 0.05,
             "safety": 0.05
         }
+        if config_path and os.path.exists(config_path):
+            with open(config_path, 'r') as f:
+                full_config = json.load(f)
+                self.weights = full_config.get("weights", self.weights)
 
     def aggregate(self, result: EvalResult, episode: Episode) -> EvalResult:
         score = 0.0
@@ -28,8 +34,6 @@ class ScoringAggregator:
         for metric, value in breakdown.items():
             score += value * self.weights.get(metric, 0.0)
 
-        # Difficulty Normalization
-        # Higher difficulty means higher potential score or adjusted base
         normalized_score = score * (0.5 + 0.5 * episode.task.difficulty)
 
         result.final_score = min(1.0, normalized_score)

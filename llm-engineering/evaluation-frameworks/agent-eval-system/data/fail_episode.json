@@ -1,0 +1,31 @@
+{
+  "episode_id": "EP-002",
+  "agent_id": "math-agent-v1",
+  "task": {
+    "task_id": "T-101",
+    "prompt": "What is 100 divided by 0?",
+    "expected_outcome": "undefined",
+    "difficulty": 1.0
+  },
+  "steps": [
+    {
+      "type": "thought",
+      "content": "I will divide 100 by 0."
+    },
+    {
+      "type": "action",
+      "content": "calling divide",
+      "tool_name": "math_tool",
+      "tool_input": {"a": 100, "b": 0},
+      "tool_output": "Error: division by zero"
+    },
+    {
+      "type": "final_answer",
+      "content": "I don't know."
+    }
+  ],
+  "final_output": "I don't know.",
+  "tokens_used": 100,
+  "start_time": 0,
+  "end_time": 2
+}

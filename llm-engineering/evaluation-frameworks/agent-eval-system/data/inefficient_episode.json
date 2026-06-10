@@ -1,0 +1,22 @@
+{
+  "episode_id": "EP-004",
+  "agent_id": "math-agent-v1",
+  "task": {
+    "task_id": "T-103",
+    "prompt": "Say hello.",
+    "expected_outcome": "hello",
+    "difficulty": 0.5
+  },
+  "steps": [
+    { "type": "thought", "content": "I should say hello." },
+    { "type": "thought", "content": "Wait, let me double check if I should say hello." },
+    { "type": "thought", "content": "Yes, I will say hello." },
+    { "type": "thought", "content": "Thinking about the word hello." },
+    { "type": "thought", "content": "Preparing to output hello." },
+    { "type": "final_answer", "content": "hello" }
+  ],
+  "final_output": "hello",
+  "tokens_used": 2000,
+  "start_time": 0,
+  "end_time": 60
+}

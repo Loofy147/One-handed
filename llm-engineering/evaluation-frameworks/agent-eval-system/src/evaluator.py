@@ -1,9 +1,21 @@
 from .models import Episode, EvalResult, StepType
 import re
+import json
+import os
 
 class EvaluationEngine:
-    def __init__(self):
-        pass
+    def __init__(self, config_path: str = None):
+        self.config = {
+            "baselines": {
+                "ideal_steps": 5,
+                "token_limit": 1000,
+                "time_limit_seconds": 30
+            }
+        }
+        if config_path and os.path.exists(config_path):
+            with open(config_path, 'r') as f:
+                full_config = json.load(f)
+                self.config["baselines"] = full_config.get("baselines", self.config["baselines"])
 
     def evaluate_episode(self, episode: Episode) -> EvalResult:
         result = EvalResult()
@@ -59,37 +71,34 @@ class EvaluationEngine:
         return 0.5
 
     def _evaluate_efficiency(self, episode: Episode) -> float:
+        baselines = self.config["baselines"]
+
         # Step Efficiency
         num_steps = len(episode.steps)
-        step_eff = min(1.0, 5.0 / num_steps) if num_steps > 0 else 0.0
+        step_eff = min(1.0, baselines["ideal_steps"] / num_steps) if num_steps > 0 else 0.0
 
-        # Token Efficiency (Assuming task success)
-        # If success is 0, token efficiency is 0
+        # Token Efficiency
         success = self._evaluate_success(episode)
         if success == 0 or episode.tokens_used == 0:
             token_eff = 0.0
         else:
-            # Assume 1000 tokens is baseline for 1.0 efficiency
-            token_eff = min(1.0, 1000.0 / episode.tokens_used)
+            token_eff = min(1.0, baselines["token_limit"] / episode.tokens_used)
 
         # Time Efficiency
         duration = episode.end_time - episode.start_time
         if duration <= 0:
-            time_eff = 1.0 # Unknown or instant
+            time_eff = 1.0
         else:
-            # Assume 30 seconds is baseline for 1.0 efficiency
-            time_eff = min(1.0, 30.0 / duration)
+            time_eff = min(1.0, baselines["time_limit_seconds"] / duration)
 
         return (step_eff + token_eff + time_eff) / 3.0
 
     def _evaluate_robustness(self, episode: Episode) -> float:
-        # Check for error recovery: an action with error followed by a successful action or correct answer
         action_steps = [s for s in episode.steps if s.type == StepType.ACTION]
         errors = [i for i, s in enumerate(action_steps) if s.tool_output is not None and "error" in str(s.tool_output).lower()]
 
         if not errors:
-            return 1.0 # No errors encountered
+            return 1.0
 
-        # If there were errors, did the agent succeed in the end?
         success = self._evaluate_success(episode)
-        return success # If it succeeded despite errors, robustness is 1.0 (recovered)
+        return success
