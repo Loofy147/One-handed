@@ -23,7 +23,7 @@ def test_evaluation_success(evaluator):
     task = Task(task_id="T1", prompt="test", expected_outcome="success")
     episode = Episode(
         episode_id="E1",
-        agent_id="A1",
+        agent_id="jules-agent",
         task=task,
         final_output="This was a success",
         steps=[Step(type=StepType.THOUGHT, content="thinking")]
@@ -35,7 +35,7 @@ def test_efficiency_metrics(evaluator):
     task = Task(task_id="T1", prompt="test", expected_outcome="success")
     episode = Episode(
         episode_id="E1",
-        agent_id="A1",
+        agent_id="jules-agent",
         task=task,
         final_output="success",
         steps=[Step(type=StepType.THOUGHT, content="thinking")] * 10,
@@ -65,20 +65,20 @@ def test_fingerprint_logic():
 
     # Thought-heavy episode
     ep1 = Episode(
-        episode_id="E1", agent_id="A1", task=task,
+        episode_id="E1", agent_id="jules-agent", task=task,
         steps=[
             Step(type=StepType.THOUGHT, content="T1"),
             Step(type=StepType.THOUGHT, content="T2"),
             Step(type=StepType.THOUGHT, content="T3"),
-            Step(type=StepType.ACTION, content="A1")
+            Step(type=StepType.ACTION, content="jules-agent")
         ]
     )
 
     # Action-heavy episode
     ep2 = Episode(
-        episode_id="E2", agent_id="A1", task=task,
+        episode_id="E2", agent_id="jules-agent", task=task,
         steps=[
-            Step(type=StepType.ACTION, content="A1"),
+            Step(type=StepType.ACTION, content="jules-agent"),
             Step(type=StepType.ACTION, content="A2"),
             Step(type=StepType.ACTION, content="A3")
         ]

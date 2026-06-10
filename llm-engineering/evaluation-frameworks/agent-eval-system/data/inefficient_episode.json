@@ -1,6 +1,6 @@
 {
   "episode_id": "EP-004",
-  "agent_id": "math-agent-v1",
+  "agent_id": "jules-agent",
   "task": {
     "task_id": "T-103",
     "prompt": "Say hello.",

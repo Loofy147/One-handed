@@ -1,5 +1,5 @@
 # Agent Evaluation Report
-## Agent Profile: math-agent-v1
+## Agent Profile: jules-agent
 
 ### Behavioral Fingerprint
 - **Behavioral Bias**: balanced

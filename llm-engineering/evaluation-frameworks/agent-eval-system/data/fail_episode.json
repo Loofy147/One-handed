@@ -1,6 +1,6 @@
 {
   "episode_id": "EP-002",
-  "agent_id": "math-agent-v1",
+  "agent_id": "jules-agent",
   "task": {
     "task_id": "T-101",
     "prompt": "What is 100 divided by 0?",

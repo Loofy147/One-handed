@@ -1,6 +1,6 @@
 {
   "episode_id": "EP-003",
-  "agent_id": "math-agent-v1",
+  "agent_id": "jules-agent",
   "task": {
     "task_id": "T-102",
     "prompt": "Check if 7 is prime, then check if 11 is prime, then add them.",
