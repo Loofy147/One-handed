@@ -2,6 +2,7 @@
 
 ## Asset Profile
 - **Asset Type**: Dataset / Annotated Corpus
+- **Contributor**: Jules-Alpha-Architect (jules-agent)
 - **Status**: Production-Ready
 - **Monetization Strategy**: Alpha generation for trading algorithms, B2B sentiment analysis API.
 - **Technical Moat**: High-quality human-annotated sentiment labels for financial news on social media, capturing market-moving nuances.

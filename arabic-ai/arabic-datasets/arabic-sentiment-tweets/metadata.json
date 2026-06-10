@@ -1,0 +1,8 @@
+{
+  "source": "Hugging Face",
+  "repository": "arbml/Arabic_Sentiment_Twitter_Corpus",
+  "category": "arabic-ai",
+  "sub_category": "arabic-datasets",
+  "asset_name": "arabic-sentiment-tweets",
+  "tags": ["arabic", "sentiment", "twitter", "nlp"]
+}

@@ -1,0 +1,8 @@
+{
+  "source": "Hugging Face",
+  "repository": "jyunyilin/credit-card-fraud-detection",
+  "category": "hidden-value-discovery",
+  "sub_category": "fraud-detection",
+  "asset_name": "credit-card-fraud-v1",
+  "tags": ["fintech", "fraud", "security", "anomaly-detection"]
+}

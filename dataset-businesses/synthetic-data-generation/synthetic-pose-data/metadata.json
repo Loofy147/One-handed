@@ -1,0 +1,8 @@
+{
+  "source": "Hugging Face",
+  "repository": "arsity/UDAPose-synthetic-data",
+  "category": "dataset-businesses",
+  "sub_category": "synthetic-data-generation",
+  "asset_name": "synthetic-pose-data",
+  "tags": ["synthetic-data", "cv", "pose-estimation", "dataset-business"]
+}

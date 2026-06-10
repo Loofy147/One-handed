@@ -1,0 +1,8 @@
+{
+  "source": "Hugging Face",
+  "repository": "manuelaschrittwieser/invoice-extraction-dataset-v2",
+  "category": "ai-automation",
+  "sub_category": "invoice-extraction",
+  "asset_name": "invoice-extraction-v2",
+  "tags": ["invoice", "ocr", "document-intelligence"]
+}
