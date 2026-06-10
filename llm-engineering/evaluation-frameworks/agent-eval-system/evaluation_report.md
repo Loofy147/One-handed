@@ -8,11 +8,11 @@
 - **Total Tokens**: 2550
 
 ### Task Breakdown
-| Task ID | Final Score | Success | Reasoning | Tool Use | Efficiency |
-|---------|-------------|---------|-----------|----------|------------|
+| Task ID | Final Score | Success | Reasoning | Constraints | Efficiency |
+|---------|-------------|---------|-----------|-------------|------------|
 | T-102 | 1.00 | 1.00 | 1.00 | 1.00 | 0.90 |
 | T-100 | 1.00 | 1.00 | 0.67 | 1.00 | 1.00 |
 | T-103 | 0.66 | 1.00 | 1.00 | 1.00 | 0.61 |
-| T-101 | 0.41 | 0.00 | 0.33 | 1.00 | 0.67 |
+| T-101 | 0.51 | 0.00 | 0.33 | 1.00 | 0.67 |
 
-**Aggregate Benchmark Score: 0.77**
+**Aggregate Benchmark Score: 0.79**

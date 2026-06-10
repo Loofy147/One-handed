@@ -45,5 +45,6 @@ class EvalResult:
     efficiency: float = 0.0
     robustness: float = 0.0
     safety: float = 0.0
+    constraints_satisfied: float = 0.0
     final_score: float = 0.0
     breakdown: Dict[str, float] = field(default_factory=dict)

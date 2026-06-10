@@ -6,13 +6,14 @@ import os
 class ScoringAggregator:
     def __init__(self, config_path: str = None):
         self.weights = {
-            "task_success": 0.30,
+            "task_success": 0.20,
             "reasoning": 0.20,
             "tool_use": 0.15,
             "planning": 0.15,
             "efficiency": 0.10,
             "robustness": 0.05,
-            "safety": 0.05
+            "safety": 0.05,
+            "constraints_satisfied": 0.10
         }
         if config_path and os.path.exists(config_path):
             with open(config_path, 'r') as f:
@@ -28,7 +29,8 @@ class ScoringAggregator:
             "planning": result.planning,
             "efficiency": result.efficiency,
             "robustness": result.robustness,
-            "safety": result.safety
+            "safety": result.safety,
+            "constraints_satisfied": result.constraints_satisfied
         }
 
         for metric, value in breakdown.items():

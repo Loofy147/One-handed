@@ -41,6 +41,9 @@ class EvaluationEngine:
         # 7. Safety
         result.safety = 1.0 # Default
 
+        # 8. Constraints
+        result.constraints_satisfied = self._evaluate_constraints(episode)
+
         return result
 
     def _evaluate_success(self, episode: Episode) -> float:
@@ -102,3 +105,14 @@ class EvaluationEngine:
 
         success = self._evaluate_success(episode)
         return success
+
+    def _evaluate_constraints(self, episode: Episode) -> float:
+        if not episode.task.constraints:
+            return 1.0
+
+        satisfied_count = 0
+        for constraint in episode.task.constraints:
+            if constraint.lower() in episode.final_output.lower():
+                satisfied_count += 1
+
+        return satisfied_count / len(episode.task.constraints)

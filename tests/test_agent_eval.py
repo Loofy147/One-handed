@@ -97,5 +97,6 @@ def test_config_loading():
     evaluator = EvaluationEngine(config_path=config_path)
     aggregator = ScoringAggregator(config_path=config_path)
 
-    assert aggregator.weights['task_success'] == 0.30
+    assert aggregator.weights['task_success'] == 0.20
+    assert aggregator.weights['constraints_satisfied'] == 0.10
     assert evaluator.config['baselines']['ideal_steps'] == 5
