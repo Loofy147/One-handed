@@ -2,6 +2,7 @@
 
 ## Asset Profile
 - **Asset Type**: Dataset
+- **Contributor**: jules-agent
 - **Status**: Beta
 - **Monetization Strategy**: Synthetic data generation for medical training, Diagnostics-assistance tools for hospitals.
 - **Technical Moat**: Multimodal synthesis data is extremely rare and valuable for training models that can cross-reference different imaging modalities (e.g., MRI to CT).

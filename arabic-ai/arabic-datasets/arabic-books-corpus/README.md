@@ -2,6 +2,7 @@
 
 ## Asset Profile
 - **Asset Type**: Dataset
+- **Contributor**: jules-agent
 - **Status**: Production-Ready
 - **Monetization Strategy**: Licensing for LLM pre-training, Arabic-specific search engine data.
 - **Technical Moat**: Curated collection of diverse Arabic literary and educational texts, cleaned and normalized using our proprietary cleaner.

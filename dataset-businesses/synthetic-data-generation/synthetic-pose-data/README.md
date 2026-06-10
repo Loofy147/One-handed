@@ -2,6 +2,7 @@
 
 ## Asset Profile
 - **Asset Type**: Dataset
+- **Contributor**: jules-agent
 - **Status**: Production-Ready
 - **Monetization Strategy**: Licensing for fitness-tracking apps, AR/VR interaction datasets, Industrial safety monitoring.
 - **Technical Moat**: Synthetic data that reduces the need for expensive, manual human pose annotation while providing perfect ground truth for edge cases.

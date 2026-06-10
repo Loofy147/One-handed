@@ -14,6 +14,9 @@ The goal is to turn free GPU access into future income by focusing on projects t
 - **[Agent Evaluation System](./llm-engineering/evaluation-frameworks/agent-eval-system)**: A comprehensive framework for measuring agent success, reasoning, and constraint satisfaction. See the [Guide](./llm-engineering/evaluation-frameworks/agent-eval-system/GUIDE.md).
 - **[Arabic AI Utilities](./arabic-ai/arabic-datasets)**: Foundational tools like the Arabic text cleaner for dataset creation.
 
+## Asset Discovery
+Explore our high-leverage assets in the [Centralized Asset Catalog](./ASSET_CATALOG.md).
+
 ## Project Taxonomy
 
 ### 1. AI Automation

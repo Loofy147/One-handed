@@ -2,6 +2,7 @@
 
 ## Asset Profile
 - **Asset Type**: Dataset
+- **Contributor**: jules-agent
 - **Status**: Production-Ready
 - **Monetization Strategy**: Fraud detection API for Fintech startups, Risk management consulting.
 - **Technical Moat**: High-quality transaction data with verified fraud labels, enabling the development of robust anomaly detection systems.

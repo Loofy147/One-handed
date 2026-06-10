@@ -2,6 +2,7 @@
 
 ## Asset Profile
 - **Asset Type**: Dataset
+- **Contributor**: jules-agent
 - **Status**: Production-Ready
 - **Monetization Strategy**: Core component for Email Security SaaS, Intelligent Inbox Filtering services.
 - **Technical Moat**: Large-scale annotated dataset covering modern spam techniques and phishing attempts.
