@@ -1,0 +1,23 @@
+{
+  "episode_id": "EP-003",
+  "agent_id": "jules-agent",
+  "task": {
+    "task_id": "T-102",
+    "prompt": "Check if 7 is prime, then check if 11 is prime, then add them.",
+    "expected_outcome": "18",
+    "difficulty": 1.5
+  },
+  "steps": [
+    { "type": "thought", "content": "Checking 7" },
+    { "type": "action", "content": "check", "tool_name": "prime_check", "tool_input": {"n": 7}, "tool_output": true },
+    { "type": "thought", "content": "Checking 11" },
+    { "type": "action", "content": "check", "tool_name": "prime_check", "tool_input": {"n": 11}, "tool_output": true },
+    { "type": "thought", "content": "Adding" },
+    { "type": "action", "content": "add", "tool_name": "math_tool", "tool_input": {"a": 7, "b": 11}, "tool_output": 18 },
+    { "type": "final_answer", "content": "The sum is 18." }
+  ],
+  "final_output": "The sum is 18.",
+  "tokens_used": 300,
+  "start_time": 0,
+  "end_time": 10
+}

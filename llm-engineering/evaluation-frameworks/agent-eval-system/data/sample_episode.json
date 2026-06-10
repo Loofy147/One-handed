@@ -1,0 +1,42 @@
+{
+  "episode_id": "EP-001",
+  "agent_id": "jules-agent",
+  "task": {
+    "task_id": "T-100",
+    "prompt": "What is the square root of 144 plus 10?",
+    "expected_outcome": "22",
+    "difficulty": 1.2
+  },
+  "steps": [
+    {
+      "type": "thought",
+      "content": "First, I need to find the square root of 144. Then I will add 10 to it."
+    },
+    {
+      "type": "action",
+      "content": "calculating sqrt",
+      "tool_name": "math_tool",
+      "tool_input": {"operation": "sqrt", "value": 144},
+      "tool_output": 12
+    },
+    {
+      "type": "thought",
+      "content": "The square root is 12. Now I add 10."
+    },
+    {
+      "type": "action",
+      "content": "adding 10",
+      "tool_name": "math_tool",
+      "tool_input": {"operation": "add", "values": [12, 10]},
+      "tool_output": 22
+    },
+    {
+      "type": "final_answer",
+      "content": "The result is 22."
+    }
+  ],
+  "final_output": "The result is 22.",
+  "tokens_used": 150,
+  "start_time": 1700000000.0,
+  "end_time": 1700000010.0
+}
