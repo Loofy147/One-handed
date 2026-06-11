@@ -1,0 +1,8 @@
+{
+  "source": "Hugging Face",
+  "repository": "wissamantoun/qasr-arabic-speech-continuations",
+  "category": "arabic-ai",
+  "sub_category": "arabic-speech-recognition",
+  "asset_name": "qasr-speech-corpus",
+  "tags": ["arabic", "speech", "asr", "dialectal"]
+}

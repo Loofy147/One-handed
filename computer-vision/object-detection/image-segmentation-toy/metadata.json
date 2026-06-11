@@ -1,0 +1,8 @@
+{
+  "source": "Hugging Face",
+  "repository": "nielsr/image-segmentation-toy-data",
+  "category": "computer-vision",
+  "sub_category": "object-detection",
+  "asset_name": "image-segmentation-toy",
+  "tags": ["cv", "segmentation", "toy-dataset"]
+}

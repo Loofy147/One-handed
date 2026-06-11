@@ -19,7 +19,7 @@
     "Asset Monetization",
     "Monorepo Management"
   ],
-  "contribution_count": 21,
+  "contribution_count": 24,
   "tags": [
     "Alpha-Architect",
     "Asset-Builder",
@@ -47,9 +47,11 @@
     "arabic-ai/arabic-datasets/arabic-sentiment-tweets",
     "arabic-ai/arabic-ocr/arabic-turath-ocr",
     "arabic-ai/arabic-speech-recognition/egyptian-speech-corpus",
+    "arabic-ai/arabic-speech-recognition/qasr-speech-corpus",
     "computer-vision/defect-detection/synthetic-defect-data",
     "computer-vision/license-plate-recognition/license-plates-700k",
     "computer-vision/medical-image-analysis/medical-image-synthesis",
+    "computer-vision/object-detection/image-segmentation-toy",
     "dataset-businesses/synthetic-data-generation/synthetic-medical-speech",
     "dataset-businesses/synthetic-data-generation/synthetic-pose-data",
     "hidden-value-discovery/anomaly-detection/mvtec-anomaly-ground-truth",
@@ -58,6 +60,7 @@
     "high-leverage-research/federated-learning/federated-learning-playground",
     "llm-engineering/rag-systems/arabic-rag-benchmark-v1",
     "open-source-products/evaluation-tools/unified-agent-eval",
+    "quant-finance/sentiment-analysis/twitter-financial-news",
     "quant-finance/sentiment-analysis/twitter-financial-sentiment",
     "scientific-ai/materials-discovery/science-materials-corpus",
     "scientific-ai/protein-folding/protein-folding-corpus"

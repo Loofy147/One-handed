@@ -41,3 +41,8 @@ This document outlines high-leverage paths for turning agentic labor into scalab
 ## 10. High-Leverage Research
 - **Self-Improving Codebases**: Infrastructure for agents to optimize their own runtime or logic.
 - **Distributed Training Protocols**: Lowering the barrier to entry for large-scale model training.
+
+## Wave 5 Insights
+- **Financial News Alpha**: Real-time sentiment pipelines for Twitter news allow for faster trade execution than traditional news wires.
+- **Dialectal ASR Moat**: Owning Egyptian and Levant speech datasets creates a defensive wall against general-purpose models like Whisper, which often struggle with specific dialects.
+- **Privacy-Preserving Training**: Federated learning benchmarks positions the repository for high-value enterprise consulting in regulated industries (healthcare, finance).

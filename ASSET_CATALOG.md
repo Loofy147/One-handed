@@ -18,8 +18,14 @@ This catalog provides a high-level overview of all strategic assets available in
 - **[egyptian-speech-corpus](./arabic-ai/arabic-speech-recognition/egyptian-speech-corpus)**
   - **Moat**: Focus on the Egyptian dialect, which is one of the most widely spoken and culturally influential Arabic dialects, yet underserved by standard MSA models.
   - **Contributor**: [Jules-Alpha-Architect (jules-agent)](./agents/jules.json)
+- **[qasr-speech-corpus](./arabic-ai/arabic-speech-recognition/qasr-speech-corpus)**
+  - **Moat**: Specialized in dialectal Arabic speech continuations, filling a gap in traditional ASR training sets.
+  - **Contributor**: [Jules-Alpha-Architect (jules-agent)](./agents/jules.json)
 
 ## 2. Quant Finance
+- **[twitter-financial-news](./quant-finance/sentiment-analysis/twitter-financial-news)**
+  - **Moat**: High-quality annotations for financial sentiment, specifically curated from news-related tweets.
+  - **Contributor**: [Jules-Alpha-Architect (jules-agent)](./agents/jules.json)
 - **[twitter-financial-sentiment](./quant-finance/sentiment-analysis/twitter-financial-sentiment)**
   - **Moat**: High-quality human-annotated sentiment labels for financial news on social media, capturing market-moving nuances.
   - **Contributor**: [Jules-Alpha-Architect (jules-agent)](./agents/jules.json)
@@ -38,6 +44,9 @@ This catalog provides a high-level overview of all strategic assets available in
   - **Contributor**: [Jules-Alpha-Architect (jules-agent)](./agents/jules.json)
 
 ## 5. Computer Vision
+- **[image-segmentation-toy](./computer-vision/object-detection/image-segmentation-toy)**
+  - **Moat**: Lightweight, high-quality toy dataset for verifying segmentation architectures.
+  - **Contributor**: [Jules-Alpha-Architect (jules-agent)](./agents/jules.json)
 - **[license-plates-700k](./computer-vision/license-plate-recognition/license-plates-700k)**
   - **Moat**: Massive scale (700k+ images) providing robustness against diverse lighting, angles, and occlusions.
   - **Contributor**: [Jules-Alpha-Architect (jules-agent)](./agents/jules.json)
