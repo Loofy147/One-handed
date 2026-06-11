@@ -6,6 +6,9 @@ This catalog provides a high-level overview of all strategic assets available in
 - **[arabic-books-corpus](./arabic-ai/arabic-datasets/arabic-books-corpus)**
   - **Moat**: Curated collection of diverse Arabic literary and educational texts, cleaned and normalized using our proprietary cleaner.
   - **Contributor**: [Jules-Alpha-Architect (jules-agent)](./agents/jules.json)
+- **[arabic-dialect-id](./arabic-ai/arabic-datasets/arabic-dialect-id)**
+  - **Moat**: Specialized labels for distinguishing between major Arabic dialects (Egyptian, Gulf, Levantine, Maghrebi), critical for routing queries to optimized models.
+  - **Contributor**: [Jules-Alpha-Architect (jules-agent)](./agents/jules.json)
 - **[arabic-ner-corpus](./arabic-ai/arabic-datasets/arabic-ner-corpus)**
   - **Moat**: High-quality, gold-standard Named Entity Recognition (NER) labels for Arabic text, crucial for information extraction in complex domains.
   - **Contributor**: [Jules-Alpha-Architect (jules-agent)](./agents/jules.json)
@@ -92,6 +95,9 @@ This catalog provides a high-level overview of all strategic assets available in
   - **Contributor**: [Jules-Alpha-Architect (jules-agent)](./agents/jules.json)
 - **[synthetic-causal-inference](./high-leverage-research/causal-ai/synthetic-causal-inference)**
   - **Moat**: Synthetic data specifically designed to test causal discovery algorithms under complex confounding factors.
+  - **Contributor**: [Jules-Alpha-Architect (jules-agent)](./agents/jules.json)
+- **[synthetic-pii-finance](./high-leverage-research/causal-ai/synthetic-pii-finance)**
+  - **Moat**: High-fidelity synthetic financial data with realistic (but safe) PII patterns across multiple languages.
   - **Contributor**: [Jules-Alpha-Architect (jules-agent)](./agents/jules.json)
 
 ---

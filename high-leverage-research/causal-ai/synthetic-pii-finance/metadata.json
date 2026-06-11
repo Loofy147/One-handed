@@ -1,0 +1,8 @@
+{
+  "source": "Hugging Face",
+  "repository": "gretelai/synthetic_pii_finance_multilingual",
+  "category": "high-leverage-research",
+  "sub_category": "causal-ai",
+  "asset_name": "synthetic-pii-finance",
+  "tags": ["finance", "pii", "synthetic", "privacy", "multilingual"]
+}

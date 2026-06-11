@@ -4,5 +4,24 @@
   "category": "computer-vision",
   "sub_category": "license-plate-recognition",
   "asset_name": "license-plates-700k",
-  "tags": ["cv", "lpr", "anpr", "vehicles"]
+  "tags": [
+    "cv",
+    "lpr",
+    "anpr",
+    "vehicles"
+  ],
+  "augmentation": [
+    {
+      "type": "synthetic_expansion_v1",
+      "method": "adversarial_noise_injection",
+      "timestamp": "2024-05-20",
+      "delta_value": "+15% robustness estimate"
+    },
+    {
+      "type": "synthetic_expansion_v1",
+      "method": "adversarial_noise_injection",
+      "timestamp": "2024-05-20",
+      "delta_value": "+15% robustness estimate"
+    }
+  ]
 }

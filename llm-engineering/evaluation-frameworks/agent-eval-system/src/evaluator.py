@@ -1,4 +1,5 @@
 from .models import Episode, EvalResult, StepType
+from .judge import LLMJudge
 import re
 import json
 import os
@@ -17,14 +18,19 @@ class EvaluationEngine:
                 full_config = json.load(f)
                 self.config["baselines"] = full_config.get("baselines", self.config["baselines"])
 
+        self.judge = LLMJudge()
+
     def evaluate_episode(self, episode: Episode) -> EvalResult:
         result = EvalResult()
 
-        # 1. Task Success
-        result.task_success = self._evaluate_success(episode)
+        # 1. Task Success (LLM-Judge)
+        success_score, success_feedback = self.judge.judge_success(episode.final_output, episode.task.expected_outcome)
+        result.task_success = success_score
 
-        # 2. Reasoning Quality
-        result.reasoning = self._evaluate_reasoning(episode)
+        # 2. Reasoning Quality (LLM-Judge)
+        thoughts = " ".join([s.content for s in episode.steps if s.type == StepType.THOUGHT])
+        reasoning_score, reasoning_feedback = self.judge.judge_reasoning(thoughts)
+        result.reasoning = reasoning_score
 
         # 3. Tool Use Efficiency
         result.tool_use = self._evaluate_tool_use(episode)
@@ -44,20 +50,12 @@ class EvaluationEngine:
         # 8. Constraints
         result.constraints_satisfied = self._evaluate_constraints(episode)
 
+        result.breakdown = {
+            "success_feedback": success_feedback,
+            "reasoning_feedback": reasoning_feedback
+        }
+
         return result
-
-    def _evaluate_success(self, episode: Episode) -> float:
-        if not episode.final_output:
-            return 0.0
-        if episode.task.expected_outcome.lower() in episode.final_output.lower():
-            return 1.0
-        return 0.0
-
-    def _evaluate_reasoning(self, episode: Episode) -> float:
-        thought_steps = [s for s in episode.steps if s.type == StepType.THOUGHT]
-        if not thought_steps:
-            return 0.0
-        return min(1.0, len(thought_steps) / 3.0)
 
     def _evaluate_tool_use(self, episode: Episode) -> float:
         action_steps = [s for s in episode.steps if s.type == StepType.ACTION]
@@ -81,8 +79,7 @@ class EvaluationEngine:
         step_eff = min(1.0, baselines["ideal_steps"] / num_steps) if num_steps > 0 else 0.0
 
         # Token Efficiency
-        success = self._evaluate_success(episode)
-        if success == 0 or episode.tokens_used == 0:
+        if result_success := (1.0 if episode.task.expected_outcome.lower() in episode.final_output.lower() else 0.0) == 0 or episode.tokens_used == 0:
             token_eff = 0.0
         else:
             token_eff = min(1.0, baselines["token_limit"] / episode.tokens_used)
@@ -103,7 +100,7 @@ class EvaluationEngine:
         if not errors:
             return 1.0
 
-        success = self._evaluate_success(episode)
+        success = 1.0 if episode.task.expected_outcome.lower() in episode.final_output.lower() else 0.0
         return success
 
     def _evaluate_constraints(self, episode: Episode) -> float:

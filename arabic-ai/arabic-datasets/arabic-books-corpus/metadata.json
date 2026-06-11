@@ -4,5 +4,24 @@
   "category": "arabic-ai",
   "sub_category": "arabic-datasets",
   "asset_name": "arabic-books-corpus",
-  "tags": ["arabic", "books", "nlp", "corpus"]
+  "tags": [
+    "arabic",
+    "books",
+    "nlp",
+    "corpus"
+  ],
+  "augmentation": [
+    {
+      "type": "synthetic_expansion_v1",
+      "method": "adversarial_noise_injection",
+      "timestamp": "2024-05-20",
+      "delta_value": "+15% robustness estimate"
+    },
+    {
+      "type": "synthetic_expansion_v1",
+      "method": "adversarial_noise_injection",
+      "timestamp": "2024-05-20",
+      "delta_value": "+15% robustness estimate"
+    }
+  ]
 }

@@ -1,0 +1,8 @@
+{
+  "proprietary_tags": [
+    "high_signal",
+    "verified_ground_truth"
+  ],
+  "synthetic_samples_count": 998,
+  "usage_notes": "Optimized for low-latency inference."
+}

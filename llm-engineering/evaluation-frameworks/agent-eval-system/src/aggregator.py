@@ -22,7 +22,9 @@ class ScoringAggregator:
 
     def aggregate(self, result: EvalResult, episode: Episode) -> EvalResult:
         score = 0.0
-        breakdown = {
+
+        # Core metrics for scoring
+        metrics = {
             "task_success": result.task_success,
             "reasoning": result.reasoning,
             "tool_use": result.tool_use,
@@ -33,11 +35,16 @@ class ScoringAggregator:
             "constraints_satisfied": result.constraints_satisfied
         }
 
-        for metric, value in breakdown.items():
+        for metric, value in metrics.items():
             score += value * self.weights.get(metric, 0.0)
 
         normalized_score = score * (0.5 + 0.5 * episode.task.difficulty)
 
         result.final_score = min(1.0, normalized_score)
-        result.breakdown = breakdown
+
+        # Merge metrics and existing feedback into breakdown
+        if not hasattr(result, 'breakdown'):
+            result.breakdown = {}
+        result.breakdown.update(metrics)
+
         return result
