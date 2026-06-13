@@ -1,0 +1,43 @@
+{
+  "source": "Architectural Blueprint",
+  "repository": "Internal/arabic-dialect-rag",
+  "category": "arabic-ai",
+  "sub_category": "arabic-rag",
+  "asset_name": "dialect-rag-blueprint",
+  "tags": [
+    "arabic",
+    "rag",
+    "dialects",
+    "blueprint"
+  ],
+  "augmentation": [
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.93,
+      "market_fit": 0.67
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.94,
+      "market_fit": 0.7
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 1.0,
+      "market_fit": 0.84
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.95,
+      "market_fit": 0.9
+    }
+  ]
+}

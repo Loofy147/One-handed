@@ -1,0 +1,42 @@
+{
+  "source": "Software Asset",
+  "repository": "Internal/unified-agent-orchestrator",
+  "category": "llm-engineering",
+  "sub_category": "agent-orchestration",
+  "asset_name": "unified-orchestrator",
+  "tags": [
+    "orchestration",
+    "multi-agent",
+    "state-machine"
+  ],
+  "augmentation": [
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.78,
+      "market_fit": 0.77
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.8,
+      "market_fit": 0.68
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.77,
+      "market_fit": 0.82
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.8,
+      "market_fit": 0.65
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "source": "Hugging Face",
+  "repository": "llmware/rag_instruct_benchmark_tester",
+  "category": "llm-engineering",
+  "sub_category": "agent-orchestration",
+  "asset_name": "rag-instruct-bench",
+  "tags": [
+    "llm",
+    "rag",
+    "benchmark",
+    "instruction-tuning"
+  ],
+  "augmentation": [
+    {
+      "type": "synthetic_enrichment_v2",
+      "method": "cross_domain_feature_injection",
+      "timestamp": "2024-05-21",
+      "alpha_score": 0.76
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.78,
+      "market_fit": 0.89
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.84,
+      "market_fit": 0.64
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.78,
+      "market_fit": 0.83
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.81,
+      "market_fit": 0.85
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.8,
+      "market_fit": 0.68
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.84,
+      "market_fit": 0.7
+    }
+  ]
+}

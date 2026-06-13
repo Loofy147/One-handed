@@ -1,0 +1,50 @@
+{
+  "source": "Hugging Face",
+  "repository": "nielsr/docvqa_extract",
+  "category": "ai-automation",
+  "sub_category": "document-processing",
+  "asset_name": "ocr-invoice-v3",
+  "tags": [
+    "ocr",
+    "invoice",
+    "docvqa",
+    "automation"
+  ],
+  "augmentation": [
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.71,
+      "market_fit": 0.77
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.75,
+      "market_fit": 0.85
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.72,
+      "market_fit": 0.79
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.72,
+      "market_fit": 0.72
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.73,
+      "market_fit": 0.8
+    }
+  ]
+}

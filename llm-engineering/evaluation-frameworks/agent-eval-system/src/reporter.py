@@ -14,6 +14,16 @@ class MarkdownReporter:
         lines.append(f"- **Total Tokens**: {fingerprint.get('total_tokens_consumed')}")
         lines.append("")
 
+        bias = fingerprint.get('behavioral_bias', 'balanced')
+        lines.append("### Strategic Recommendation")
+        if "thought-heavy" in bias:
+            lines.append("- **Recommendation**: Agent is highly deliberative. Ideal for complex R&D, legal analysis, and scientific discovery. Consider reducing thought verbosity for latency-sensitive tasks.")
+        elif "action-heavy" in bias:
+            lines.append("- **Recommendation**: Agent is highly impulsive/efficient. Ideal for real-time trading, quick customer support, and high-throughput data processing. Monitor for potential reasoning errors in complex tasks.")
+        else:
+            lines.append("- **Recommendation**: Agent is balanced. Suitable for most general-purpose agentic workflows. Maintain current tuning for stability.")
+        lines.append("")
+
         lines.append("### Task Breakdown")
         lines.append("| Task ID | Final Score | Success | Reasoning | Constraints | Efficiency |")
         lines.append("|---------|-------------|---------|-----------|-------------|------------|")
@@ -38,7 +48,6 @@ class MarkdownReporter:
                 if step.tool_name:
                     step_label += f": {step.tool_name}"
 
-                # Sanitize content for mermaid
                 content = step.content[:30].replace('"', "'").replace("\n", " ") + "..."
                 lines.append(f"  S{i}[\"{step_label}<br/>{content}\"]")
 

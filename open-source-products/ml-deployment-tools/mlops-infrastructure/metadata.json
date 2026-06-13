@@ -1,0 +1,69 @@
+{
+  "source": "Hugging Face",
+  "repository": "CedM/oc_mlops_projet_2",
+  "category": "open-source-products",
+  "sub_category": "ml-deployment-tools",
+  "asset_name": "mlops-infrastructure",
+  "tags": [
+    "mlops",
+    "deployment",
+    "cicd",
+    "infrastructure"
+  ],
+  "augmentation": [
+    {
+      "type": "synthetic_enrichment_v2",
+      "method": "cross_domain_feature_injection",
+      "timestamp": "2024-05-21",
+      "alpha_score": 0.86
+    },
+    {
+      "type": "synthetic_enrichment_v2",
+      "method": "cross_domain_feature_injection",
+      "timestamp": "2024-05-21",
+      "alpha_score": 0.82
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.47,
+      "market_fit": 0.82
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.47,
+      "market_fit": 0.69
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.46,
+      "market_fit": 0.61
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.49,
+      "market_fit": 0.79
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.47,
+      "market_fit": 0.64
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.55,
+      "market_fit": 0.68
+    }
+  ]
+}

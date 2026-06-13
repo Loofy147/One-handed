@@ -1,0 +1,450 @@
+{
+  "./arabic-ai/arabic-legal-ai/arabic-legal-ner": {
+    "score": 100,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": false
+    }
+  },
+  "./arabic-ai/arabic-translation-systems/arabic-russian-corpus": {
+    "score": 100,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": false
+    }
+  },
+  "./arabic-ai/arabic-ocr/arabic-turath-ocr": {
+    "score": 100,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": false
+    }
+  },
+  "./arabic-ai/arabic-datasets/arabic-ner-corpus": {
+    "score": 100,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": false
+    }
+  },
+  "./arabic-ai/arabic-datasets/arabic-dialect-id": {
+    "score": 100,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": false
+    }
+  },
+  "./arabic-ai/arabic-datasets/arabic-sentiment-tweets": {
+    "score": 100,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": false
+    }
+  },
+  "./arabic-ai/arabic-datasets/arabic-books-corpus": {
+    "score": 100,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": false
+    }
+  },
+  "./arabic-ai/arabic-finance-ai/mena-market-simulation": {
+    "score": 80,
+    "issues": {
+      "missing_docs": [
+        "README.md"
+      ],
+      "missing_benchmarks": [],
+      "low_alpha": false
+    }
+  },
+  "./arabic-ai/arabic-speech-recognition/qasr-speech-corpus": {
+    "score": 100,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": false
+    }
+  },
+  "./arabic-ai/arabic-speech-recognition/egyptian-speech-corpus": {
+    "score": 100,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": false
+    }
+  },
+  "./arabic-ai/arabic-rag/dialect-rag-blueprint": {
+    "score": 80,
+    "issues": {
+      "missing_docs": [
+        "README.md"
+      ],
+      "missing_benchmarks": [],
+      "low_alpha": false
+    }
+  },
+  "./high-leverage-research/causal-ai/synthetic-pii-finance": {
+    "score": 100,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": false
+    }
+  },
+  "./high-leverage-research/causal-ai/synthetic-causal-inference": {
+    "score": 100,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": false
+    }
+  },
+  "./high-leverage-research/neuro-symbolic-ai/neuro-symbolic-weights": {
+    "score": 100,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": false
+    }
+  },
+  "./high-leverage-research/federated-learning/federated-learning-playground": {
+    "score": 100,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": false
+    }
+  },
+  "./dataset-businesses/synthetic-data-generation/synthetic-pose-data": {
+    "score": 80,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": true
+    }
+  },
+  "./dataset-businesses/synthetic-data-generation/synthetic-medical-speech": {
+    "score": 80,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": true
+    }
+  },
+  "./dataset-businesses/dataset-labeling/code-vulnerability-dataset": {
+    "score": 80,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": true
+    }
+  },
+  "./hidden-value-discovery/behavioral-prediction/user-behavior-simulation": {
+    "score": 80,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": true
+    }
+  },
+  "./hidden-value-discovery/fraud-detection/credit-card-fraud-v1": {
+    "score": 80,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": true
+    }
+  },
+  "./hidden-value-discovery/fraud-detection/credit-card-fraud-detection": {
+    "score": 80,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": true
+    }
+  },
+  "./hidden-value-discovery/fraud-detection/synthetic-financial-fraud": {
+    "score": 80,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": true
+    }
+  },
+  "./hidden-value-discovery/anomaly-detection/mvtec-anomaly-ground-truth": {
+    "score": 80,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": true
+    }
+  },
+  "./scientific-ai/materials-discovery/science-materials-corpus": {
+    "score": 80,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": true
+    }
+  },
+  "./scientific-ai/protein-folding/protein-folding-corpus": {
+    "score": 80,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": true
+    }
+  },
+  "./scientific-ai/bioinformatics/protein-folding-pathway": {
+    "score": 80,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": true
+    }
+  },
+  "./scientific-ai/computational-chemistry/molecular-property-prediction": {
+    "score": 80,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": true
+    }
+  },
+  "./scientific-ai/climate-modeling/climate-collapse-modeling": {
+    "score": 80,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": true
+    }
+  },
+  "./computer-vision/object-detection/image-segmentation-toy": {
+    "score": 100,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": false
+    }
+  },
+  "./computer-vision/defect-detection/synthetic-defect-data": {
+    "score": 80,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": true
+    }
+  },
+  "./computer-vision/license-plate-recognition/license-plates-700k": {
+    "score": 100,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": false
+    }
+  },
+  "./computer-vision/medical-image-analysis/medical-image-synthesis": {
+    "score": 100,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": false
+    }
+  },
+  "./computer-vision/medical-image-analysis/medical-image-segmentation": {
+    "score": 100,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": false
+    }
+  },
+  "./computer-vision/security-camera-analytics/face-mask-detection": {
+    "score": 100,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": false
+    }
+  },
+  "./computer-vision/satellite-image-analysis/satellite-imagery-segmentation": {
+    "score": 100,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": false
+    }
+  },
+  "./open-source-products/ml-deployment-tools/mlops-infrastructure": {
+    "score": 80,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": true
+    }
+  },
+  "./open-source-products/ml-deployment-tools/mlops-infra-fr": {
+    "score": 80,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": true
+    }
+  },
+  "./open-source-products/vector-databases/vector-db-benchmark": {
+    "score": 80,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": true
+    }
+  },
+  "./open-source-products/monitoring-systems/autonomous-security-auditor": {
+    "score": 100,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": false
+    }
+  },
+  "./open-source-products/evaluation-tools/unified-agent-eval": {
+    "score": 80,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": true
+    }
+  },
+  "./llm-engineering/knowledge-extraction/multi-hop-qa-bench": {
+    "score": 100,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": false
+    }
+  },
+  "./llm-engineering/agent-orchestration/rag-instruct-bench": {
+    "score": 100,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": false
+    }
+  },
+  "./llm-engineering/agent-orchestration/unified-orchestrator": {
+    "score": 80,
+    "issues": {
+      "missing_docs": [
+        "README.md"
+      ],
+      "missing_benchmarks": [],
+      "low_alpha": false
+    }
+  },
+  "./llm-engineering/rag-systems/arabic-rag-benchmark-v1": {
+    "score": 100,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": false
+    }
+  },
+  "./llm-engineering/prompt-optimization/prompt-optimization-dataset": {
+    "score": 100,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": false
+    }
+  },
+  "./ai-automation/contract-analysis/legal-contract-analysis": {
+    "score": 100,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": false
+    }
+  },
+  "./ai-automation/document-processing/ocr-invoice-v3": {
+    "score": 100,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": false
+    }
+  },
+  "./ai-automation/invoice-extraction/invoice-extraction-v2": {
+    "score": 100,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": false
+    }
+  },
+  "./ai-automation/customer-support-chatbots/support-ticket-classification": {
+    "score": 100,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": false
+    }
+  },
+  "./ai-automation/email-automation/email-spam-classification": {
+    "score": 100,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": false
+    }
+  },
+  "./quant-finance/market-microstructure-research/crypto-orderbook-l2": {
+    "score": 100,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": false
+    }
+  },
+  "./quant-finance/market-microstructure-research/hft-l3-processor": {
+    "score": 80,
+    "issues": {
+      "missing_docs": [
+        "README.md"
+      ],
+      "missing_benchmarks": [],
+      "low_alpha": false
+    }
+  },
+  "./quant-finance/sentiment-analysis/twitter-financial-sentiment": {
+    "score": 100,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": false
+    }
+  },
+  "./quant-finance/sentiment-analysis/twitter-financial-news": {
+    "score": 100,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": false
+    }
+  },
+  "./quant-finance/market-prediction-models/crypto-market-datasets": {
+    "score": 100,
+    "issues": {
+      "missing_docs": [],
+      "missing_benchmarks": [],
+      "low_alpha": false
+    }
+  }
+}

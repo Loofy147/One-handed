@@ -1,0 +1,50 @@
+{
+  "source": "Hugging Face",
+  "repository": "ArabicNLPWorld/arabic-russian-translation-corpus",
+  "category": "arabic-ai",
+  "sub_category": "arabic-translation-systems",
+  "asset_name": "arabic-russian-corpus",
+  "tags": [
+    "arabic",
+    "russian",
+    "translation",
+    "nlp"
+  ],
+  "augmentation": [
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.91,
+      "market_fit": 0.66
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.95,
+      "market_fit": 0.79
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.97,
+      "market_fit": 0.73
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.93,
+      "market_fit": 0.77
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.99,
+      "market_fit": 0.81
+    }
+  ]
+}

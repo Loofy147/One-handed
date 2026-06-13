@@ -1,0 +1,50 @@
+{
+  "source": "Hugging Face",
+  "repository": "cryptotic/crypto-order-book",
+  "category": "quant-finance",
+  "sub_category": "market-microstructure-research",
+  "asset_name": "crypto-orderbook-l2",
+  "tags": [
+    "crypto",
+    "orderbook",
+    "l2",
+    "hft"
+  ],
+  "augmentation": [
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.86,
+      "market_fit": 0.68
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.85,
+      "market_fit": 0.78
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.92,
+      "market_fit": 0.71
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.86,
+      "market_fit": 0.77
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.86,
+      "market_fit": 0.67
+    }
+  ]
+}

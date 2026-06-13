@@ -31,6 +31,38 @@
       "downloads": 13
     }
   ],
+  "computer-vision": [
+    {
+      "id": "mabo7237/license-plates-700k",
+      "query": "license plate",
+      "downloads": 46285
+    },
+    {
+      "id": "tobni/algerian-license-plates",
+      "query": "license plate",
+      "downloads": 3144
+    },
+    {
+      "id": "anywaylabs/synthetic-mvtec-ad-defect-detection",
+      "query": "defect detection",
+      "downloads": 3401
+    },
+    {
+      "id": "google/code_x_glue_cc_defect_detection",
+      "query": "defect detection",
+      "downloads": 2208
+    },
+    {
+      "id": "khushaltrivedi/satellite-imagery-project",
+      "query": "satellite imagery",
+      "downloads": 10646
+    },
+    {
+      "id": "saidines12/satellite-imagery-segmentation",
+      "query": "satellite imagery",
+      "downloads": 133
+    }
+  ],
   "quant-finance": [
     {
       "id": "zeroshot/twitter-financial-news-sentiment",
@@ -174,6 +206,38 @@
       "id": "AnPhan123/evaluation-results-tool-call-ai",
       "query": "evaluation tool",
       "downloads": 2
+    }
+  ],
+  "arabic-ai": [
+    {
+      "id": "Jr23xd23/ArabicText-Large",
+      "query": "arabic text",
+      "downloads": 521
+    },
+    {
+      "id": "Tamazight-NLP/Tamazight-Speech-to-Arabic-Text",
+      "query": "arabic text",
+      "downloads": 380
+    },
+    {
+      "id": "ammarthabet/egyptian-arabic-speech",
+      "query": "arabic speech",
+      "downloads": 3226
+    },
+    {
+      "id": "wissamantoun/qasr-arabic-speech-continuations",
+      "query": "arabic speech",
+      "downloads": 1726
+    },
+    {
+      "id": "ArabicNLPWorld/arabic-russian-translation-corpus",
+      "query": "arabic translation",
+      "downloads": 190
+    },
+    {
+      "id": "Omar-youssef/English-Egyptian-Arabic-Translation-Pairs",
+      "query": "arabic translation",
+      "downloads": 102
     }
   ],
   "hidden-value-discovery": [

@@ -1,8 +1,11 @@
 {
   "proprietary_tags": [
     "high_signal",
-    "verified_ground_truth"
+    "verified_ground_truth",
+    "alpha_ready",
+    "v3_augmented"
   ],
-  "synthetic_samples_count": 175,
-  "usage_notes": "Optimized for low-latency inference."
+  "synthetic_samples_count": 2161,
+  "category_relevance": "computer-vision",
+  "usage_notes": "Proprietary enrichment v3 active. Market fit score calculated."
 }

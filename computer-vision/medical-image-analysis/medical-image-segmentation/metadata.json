@@ -1,0 +1,50 @@
+{
+  "source": "Hugging Face",
+  "repository": "nielsr/breast-cancer-dataset",
+  "category": "computer-vision",
+  "sub_category": "medical-image-analysis",
+  "asset_name": "medical-image-segmentation",
+  "tags": [
+    "medical",
+    "segmentation",
+    "healthcare",
+    "cv"
+  ],
+  "augmentation": [
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.67,
+      "market_fit": 0.61
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.74,
+      "market_fit": 0.77
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.72,
+      "market_fit": 0.81
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.72,
+      "market_fit": 0.7
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.74,
+      "market_fit": 0.74
+    }
+  ]
+}

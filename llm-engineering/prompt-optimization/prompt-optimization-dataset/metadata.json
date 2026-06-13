@@ -1,0 +1,69 @@
+{
+  "source": "Hugging Face",
+  "repository": "rishavkundu/prompt_optimization_dataset",
+  "category": "llm-engineering",
+  "sub_category": "prompt-optimization",
+  "asset_name": "prompt-optimization-dataset",
+  "tags": [
+    "llm",
+    "prompts",
+    "optimization",
+    "instruction-tuning"
+  ],
+  "augmentation": [
+    {
+      "type": "synthetic_enrichment_v2",
+      "method": "cross_domain_feature_injection",
+      "timestamp": "2024-05-21",
+      "alpha_score": 0.77
+    },
+    {
+      "type": "synthetic_enrichment_v2",
+      "method": "cross_domain_feature_injection",
+      "timestamp": "2024-05-21",
+      "alpha_score": 0.8
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.82,
+      "market_fit": 0.68
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.79,
+      "market_fit": 0.83
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.76,
+      "market_fit": 0.77
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.83,
+      "market_fit": 0.71
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.8,
+      "market_fit": 0.75
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.82,
+      "market_fit": 0.76
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "source": "Hugging Face",
+  "repository": "hotpot_qa",
+  "category": "llm-engineering",
+  "sub_category": "knowledge-extraction",
+  "asset_name": "multi-hop-qa-bench",
+  "tags": [
+    "llm",
+    "qa",
+    "multi-hop",
+    "reasoning"
+  ],
+  "augmentation": [
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.77,
+      "market_fit": 0.64
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.82,
+      "market_fit": 0.85
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.84,
+      "market_fit": 0.86
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.85,
+      "market_fit": 0.7
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.75,
+      "market_fit": 0.66
+    }
+  ]
+}

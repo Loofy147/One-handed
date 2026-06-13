@@ -1,0 +1,11 @@
+{
+  "proprietary_tags": [
+    "high_signal",
+    "verified_ground_truth",
+    "alpha_ready",
+    "v3_augmented"
+  ],
+  "synthetic_samples_count": 3715,
+  "category_relevance": "llm-engineering",
+  "usage_notes": "Proprietary enrichment v3 active. Market fit score calculated."
+}

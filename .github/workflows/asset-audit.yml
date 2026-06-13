@@ -1,0 +1,38 @@
+name: Asset Readiness & Integrity Audit
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-python: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pytest huggingface_hub kaggle
+
+      - name: Run Foundation Validation
+        run: python scripts/validate_foundation.py
+
+      - name: Run Asset Readiness Audit
+        run: python scripts/readiness_audit.py
+
+      - name: Run Asset Intelligence Summary
+        run: python scripts/asset_intelligence.py
+
+      - name: Enforce Quality Gate
+        run: python scripts/quality_gate.py
+
+      - name: Run Unit Tests
+        run: pytest tests/
