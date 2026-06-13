@@ -1,0 +1,68 @@
+{
+  "source": "Hugging Face",
+  "repository": "sirbastiano94/anomaly-detection",
+  "category": "hidden-value-discovery",
+  "sub_category": "anomaly-detection",
+  "asset_name": "mvtec-anomaly-ground-truth",
+  "tags": [
+    "anomaly-detection",
+    "ground-truth",
+    "hidden-patterns"
+  ],
+  "augmentation": [
+    {
+      "type": "synthetic_enrichment_v2",
+      "method": "cross_domain_feature_injection",
+      "timestamp": "2024-05-21",
+      "alpha_score": 0.89
+    },
+    {
+      "type": "synthetic_enrichment_v2",
+      "method": "cross_domain_feature_injection",
+      "timestamp": "2024-05-21",
+      "alpha_score": 0.75
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.51,
+      "market_fit": 0.7
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.5,
+      "market_fit": 0.69
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.57,
+      "market_fit": 0.81
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.51,
+      "market_fit": 0.67
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.53,
+      "market_fit": 0.79
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.57,
+      "market_fit": 0.81
+    }
+  ]
+}

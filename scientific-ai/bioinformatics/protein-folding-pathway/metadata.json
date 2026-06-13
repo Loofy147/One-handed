@@ -1,0 +1,57 @@
+{
+  "source": "Hugging Face",
+  "repository": "ClarusC64/protein-folding-pathway-instability-v0.1",
+  "category": "scientific-ai",
+  "sub_category": "bioinformatics",
+  "asset_name": "protein-folding-pathway",
+  "tags": [
+    "bioinformatics",
+    "protein-folding",
+    "science",
+    "pathway"
+  ],
+  "augmentation": [
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.68,
+      "market_fit": 0.84
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.65,
+      "market_fit": 0.82
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.67,
+      "market_fit": 0.74
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.65,
+      "market_fit": 0.71
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.64,
+      "market_fit": 0.75
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.67,
+      "market_fit": 0.6
+    }
+  ]
+}

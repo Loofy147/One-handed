@@ -5,7 +5,7 @@
 - **Contributor**: Jules-Alpha-Architect (jules-agent)
 - **Status**: Production-Ready
 - **Monetization Strategy**: Licensing for pharma R&D, Policy impact modeling for governments.
-- **Technical Moat**: Synthetic data specifically designed to test causal discovery algorithms under complex confounding factors.
+- **Moat**: Synthetic data specifically designed to test causal discovery algorithms under complex confounding factors.
 
 ## Assessment
 Causal AI is a "High Leverage Research" priority. This dataset provides the ground truth needed to move beyond correlation and towards actual causal reasoning in AI models.

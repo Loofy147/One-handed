@@ -4,5 +4,84 @@
   "category": "quant-finance",
   "sub_category": "sentiment-analysis",
   "asset_name": "twitter-financial-sentiment",
-  "tags": ["finance", "sentiment", "twitter", "trading-alpha"]
+  "tags": [
+    "finance",
+    "sentiment",
+    "twitter",
+    "trading-alpha"
+  ],
+  "augmentation": [
+    {
+      "type": "synthetic_expansion_v1",
+      "method": "adversarial_noise_injection",
+      "timestamp": "2024-05-20",
+      "delta_value": "+15% robustness estimate"
+    },
+    {
+      "type": "synthetic_expansion_v1",
+      "method": "adversarial_noise_injection",
+      "timestamp": "2024-05-20",
+      "delta_value": "+15% robustness estimate"
+    },
+    {
+      "type": "synthetic_expansion_v1",
+      "method": "adversarial_noise_injection",
+      "timestamp": "2024-05-20",
+      "delta_value": "+15% robustness estimate"
+    },
+    {
+      "type": "synthetic_enrichment_v2",
+      "method": "cross_domain_feature_injection",
+      "timestamp": "2024-05-21",
+      "alpha_score": 0.76
+    },
+    {
+      "type": "synthetic_enrichment_v2",
+      "method": "cross_domain_feature_injection",
+      "timestamp": "2024-05-21",
+      "alpha_score": 0.78
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.94,
+      "market_fit": 0.68
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.93,
+      "market_fit": 0.64
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.93,
+      "market_fit": 0.83
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.87,
+      "market_fit": 0.87
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.94,
+      "market_fit": 0.79
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.87,
+      "market_fit": 0.68
+    }
+  ]
 }

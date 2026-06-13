@@ -1,0 +1,57 @@
+{
+  "source": "Hugging Face",
+  "repository": "saidines12/satellite-imagery-segmentation",
+  "category": "computer-vision",
+  "sub_category": "satellite-image-analysis",
+  "asset_name": "satellite-imagery-segmentation",
+  "tags": [
+    "cv",
+    "satellite",
+    "segmentation",
+    "remote-sensing"
+  ],
+  "augmentation": [
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.74,
+      "market_fit": 0.66
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.71,
+      "market_fit": 0.8
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.73,
+      "market_fit": 0.79
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.7,
+      "market_fit": 0.75
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.71,
+      "market_fit": 0.81
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.75,
+      "market_fit": 0.65
+    }
+  ]
+}

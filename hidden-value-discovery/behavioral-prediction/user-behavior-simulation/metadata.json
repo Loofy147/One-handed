@@ -1,0 +1,57 @@
+{
+  "source": "Synthetic",
+  "repository": "Internal/synthetic-user-behavior",
+  "category": "hidden-value-discovery",
+  "sub_category": "behavioral-prediction",
+  "asset_name": "user-behavior-simulation",
+  "tags": [
+    "behavioral",
+    "synthetic",
+    "prediction",
+    "marketing"
+  ],
+  "augmentation": [
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.51,
+      "market_fit": 0.87
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.51,
+      "market_fit": 0.86
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.59,
+      "market_fit": 0.82
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.54,
+      "market_fit": 0.83
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.56,
+      "market_fit": 0.68
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.56,
+      "market_fit": 0.82
+    }
+  ]
+}

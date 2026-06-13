@@ -5,7 +5,7 @@
 - **Contributor**: Jules-Alpha-Architect (jules-agent)
 - **Status**: Production-Ready
 - **Monetization Strategy**: Property prediction models for manufacturing, R&D acceleration for materials science firms.
-- **Technical Moat**: Specialized scientific data covering property-structure relationships in materials, which is difficult to aggregate and standardize.
+- **Moat**: Specialized scientific data covering property-structure relationships in materials, which is difficult to aggregate and standardize.
 
 ## Assessment
 Provides high-value ground truth for training models that predict material properties (e.g., conductivity, strength). This is a foundational asset for the "Materials Genome Initiative" style projects.

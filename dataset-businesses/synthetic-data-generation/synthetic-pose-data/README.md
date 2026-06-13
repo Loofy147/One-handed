@@ -5,7 +5,7 @@
 - **Contributor**: Jules-Alpha-Architect (jules-agent)
 - **Status**: Production-Ready
 - **Monetization Strategy**: Licensing for fitness-tracking apps, AR/VR interaction datasets, Industrial safety monitoring.
-- **Technical Moat**: Synthetic data that reduces the need for expensive, manual human pose annotation while providing perfect ground truth for edge cases.
+- **Moat**: Synthetic data that reduces the need for expensive, manual human pose annotation while providing perfect ground truth for edge cases.
 
 ## Assessment
 This asset highlights the "Dataset Business" strategy: using synthetic data to fill gaps where real-world data is scarce or privacy-restricted. It's a high-leverage entry into the computer vision market.

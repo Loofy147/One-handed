@@ -5,7 +5,7 @@
 - **Contributor**: Jules-Alpha-Architect (jules-agent)
 - **Status**: Production-Ready
 - **Monetization Strategy**: OCR/Extraction API for accounting firms, Automated accounts payable services.
-- **Technical Moat**: Cleaned and formatted invoice data with high-density field annotations (Total, VAT, Date, Vendor).
+- **Moat**: Cleaned and formatted invoice data with high-density field annotations (Total, VAT, Date, Vendor).
 
 ## Assessment
 Core to "AI Automation". This dataset allows for the training of high-accuracy document intelligence models, significantly reducing manual data entry in business workflows.

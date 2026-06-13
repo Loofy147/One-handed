@@ -5,7 +5,7 @@
 - **Contributor**: Jules-Alpha-Architect (jules-agent)
 - **Status**: Beta
 - **Monetization Strategy**: Benchmarking-as-a-Service for Arabic LLMs, enterprise RAG consulting.
-- **Technical Moat**: Specialized benchmark focusing on Arabic linguistic nuances, retrieval accuracy in dialectal contexts, and hallucination detection.
+- **Moat**: Specialized benchmark focusing on Arabic linguistic nuances, retrieval accuracy in dialectal contexts, and hallucination detection.
 
 ## Description
 A comprehensive benchmark for evaluating Retrieval-Augmented Generation (RAG) systems in Arabic. It provides a standardized set of queries and context passages to measure both retrieval and generation performance.

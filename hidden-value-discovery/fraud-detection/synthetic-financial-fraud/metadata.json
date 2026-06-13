@@ -1,0 +1,50 @@
+{
+  "source": "Hugging Face",
+  "repository": "purulalwani/Synthetic-Financial-Datasets-For-Fraud-Detection-Cleaned-Split",
+  "category": "hidden-value-discovery",
+  "sub_category": "fraud-detection",
+  "asset_name": "synthetic-financial-fraud",
+  "tags": [
+    "fraud",
+    "finance",
+    "synthetic",
+    "anomaly-detection"
+  ],
+  "augmentation": [
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.55,
+      "market_fit": 0.78
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.52,
+      "market_fit": 0.71
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.57,
+      "market_fit": 0.73
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.58,
+      "market_fit": 0.88
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.52,
+      "market_fit": 0.87
+    }
+  ]
+}

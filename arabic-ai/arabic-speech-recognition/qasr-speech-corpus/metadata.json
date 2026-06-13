@@ -1,0 +1,87 @@
+{
+  "source": "Hugging Face",
+  "repository": "wissamantoun/qasr-arabic-speech-continuations",
+  "category": "arabic-ai",
+  "sub_category": "arabic-speech-recognition",
+  "asset_name": "qasr-speech-corpus",
+  "tags": [
+    "arabic",
+    "speech",
+    "asr",
+    "dialectal"
+  ],
+  "augmentation": [
+    {
+      "type": "synthetic_expansion_v1",
+      "method": "adversarial_noise_injection",
+      "timestamp": "2024-05-20",
+      "delta_value": "+15% robustness estimate"
+    },
+    {
+      "type": "synthetic_expansion_v1",
+      "method": "adversarial_noise_injection",
+      "timestamp": "2024-05-20",
+      "delta_value": "+15% robustness estimate"
+    },
+    {
+      "type": "synthetic_expansion_v1",
+      "method": "adversarial_noise_injection",
+      "timestamp": "2024-05-20",
+      "delta_value": "+15% robustness estimate"
+    },
+    {
+      "type": "synthetic_enrichment_v2",
+      "method": "cross_domain_feature_injection",
+      "timestamp": "2024-05-21",
+      "alpha_score": 0.81
+    },
+    {
+      "type": "synthetic_enrichment_v2",
+      "method": "cross_domain_feature_injection",
+      "timestamp": "2024-05-21",
+      "alpha_score": 0.75
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 1.0,
+      "market_fit": 0.72
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.95,
+      "market_fit": 0.68
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.93,
+      "market_fit": 0.65
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.93,
+      "market_fit": 0.76
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.98,
+      "market_fit": 0.79
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.99,
+      "market_fit": 0.89
+    }
+  ]
+}

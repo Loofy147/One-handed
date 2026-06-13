@@ -1,0 +1,64 @@
+{
+  "source": "Hugging Face",
+  "repository": "UoM-CS-NeuroSymbolicAI/pred_qwen3_5_lora",
+  "category": "high-leverage-research",
+  "sub_category": "neuro-symbolic-ai",
+  "asset_name": "neuro-symbolic-weights",
+  "tags": [
+    "neuro-symbolic",
+    "weights",
+    "lora",
+    "qwen",
+    "logic"
+  ],
+  "augmentation": [
+    {
+      "type": "synthetic_enrichment_v2",
+      "method": "cross_domain_feature_injection",
+      "timestamp": "2024-05-21",
+      "alpha_score": 0.7
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.84,
+      "market_fit": 0.87
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.82,
+      "market_fit": 0.67
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.87,
+      "market_fit": 0.68
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.82,
+      "market_fit": 0.62
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.81,
+      "market_fit": 0.63
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.83,
+      "market_fit": 0.79
+    }
+  ]
+}

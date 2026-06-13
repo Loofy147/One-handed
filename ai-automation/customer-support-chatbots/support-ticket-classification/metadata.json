@@ -1,0 +1,57 @@
+{
+  "source": "Hugging Face",
+  "repository": "UniqueData/email-spam-classification",
+  "category": "ai-automation",
+  "sub_category": "customer-support-chatbots",
+  "asset_name": "support-ticket-classification",
+  "tags": [
+    "chatbots",
+    "classification",
+    "nlp",
+    "support"
+  ],
+  "augmentation": [
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.72,
+      "market_fit": 0.83
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.77,
+      "market_fit": 0.79
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.74,
+      "market_fit": 0.62
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.72,
+      "market_fit": 0.9
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.77,
+      "market_fit": 0.73
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.75,
+      "market_fit": 0.66
+    }
+  ]
+}

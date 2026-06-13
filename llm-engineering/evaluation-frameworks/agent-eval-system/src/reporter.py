@@ -1,5 +1,5 @@
 from typing import List, Dict
-from .models import EvalResult, Episode
+from .models import EvalResult, Episode, StepType
 
 class MarkdownReporter:
     def generate_report(self, benchmark_results: List[Dict], fingerprint: Dict) -> str:
@@ -14,6 +14,16 @@ class MarkdownReporter:
         lines.append(f"- **Total Tokens**: {fingerprint.get('total_tokens_consumed')}")
         lines.append("")
 
+        bias = fingerprint.get('behavioral_bias', 'balanced')
+        lines.append("### Strategic Recommendation")
+        if "thought-heavy" in bias:
+            lines.append("- **Recommendation**: Agent is highly deliberative. Ideal for complex R&D, legal analysis, and scientific discovery. Consider reducing thought verbosity for latency-sensitive tasks.")
+        elif "action-heavy" in bias:
+            lines.append("- **Recommendation**: Agent is highly impulsive/efficient. Ideal for real-time trading, quick customer support, and high-throughput data processing. Monitor for potential reasoning errors in complex tasks.")
+        else:
+            lines.append("- **Recommendation**: Agent is balanced. Suitable for most general-purpose agentic workflows. Maintain current tuning for stability.")
+        lines.append("")
+
         lines.append("### Task Breakdown")
         lines.append("| Task ID | Final Score | Success | Reasoning | Constraints | Efficiency |")
         lines.append("|---------|-------------|---------|-----------|-------------|------------|")
@@ -24,6 +34,31 @@ class MarkdownReporter:
             lines.append(f"| {ep.task.task_id} | {res.final_score:.2f} | {res.task_success:.2f} | {res.reasoning:.2f} | {res.constraints_satisfied:.2f} | {res.efficiency:.2f} |")
 
         lines.append("")
+
+        lines.append("### Agent Trajectories (Visualization)")
+        for entry in benchmark_results:
+            ep = entry['episode']
+            lines.append(f"#### Task: {ep.task.task_id}")
+            lines.append("```mermaid")
+            lines.append("graph TD")
+            lines.append("  Start((Start)) --> S0")
+
+            for i, step in enumerate(ep.steps):
+                step_label = step.type.value.capitalize()
+                if step.tool_name:
+                    step_label += f": {step.tool_name}"
+
+                content = step.content[:30].replace('"', "'").replace("\n", " ") + "..."
+                lines.append(f"  S{i}[\"{step_label}<br/>{content}\"]")
+
+                if i < len(ep.steps) - 1:
+                    lines.append(f"  S{i} --> S{i+1}")
+                else:
+                    lines.append(f"  S{i} --> End((End))")
+
+            lines.append("```")
+            lines.append("")
+
         avg_score = sum(r['result'].final_score for r in benchmark_results) / len(benchmark_results) if benchmark_results else 0
         lines.append(f"**Aggregate Benchmark Score: {avg_score:.2f}**")
 

@@ -1,0 +1,36 @@
+{
+  "source": "Simulation Engine",
+  "repository": "Internal/mena-finance-sim",
+  "category": "arabic-ai",
+  "sub_category": "arabic-finance-ai",
+  "asset_name": "mena-market-simulation",
+  "tags": [
+    "arabic",
+    "finance",
+    "simulation",
+    "market-data"
+  ],
+  "augmentation": [
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.9,
+      "market_fit": 0.74
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.99,
+      "market_fit": 0.82
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.9,
+      "market_fit": 0.84
+    }
+  ]
+}

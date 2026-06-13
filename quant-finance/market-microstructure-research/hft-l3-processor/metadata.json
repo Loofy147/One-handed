@@ -1,0 +1,43 @@
+{
+  "source": "Algorithmic Asset",
+  "repository": "Internal/crypto-hft-processor",
+  "category": "quant-finance",
+  "sub_category": "market-microstructure-research",
+  "asset_name": "hft-l3-processor",
+  "tags": [
+    "hft",
+    "l3",
+    "crypto",
+    "latency"
+  ],
+  "augmentation": [
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.92,
+      "market_fit": 0.73
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.93,
+      "market_fit": 0.61
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.91,
+      "market_fit": 0.83
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.93,
+      "market_fit": 0.81
+    }
+  ]
+}

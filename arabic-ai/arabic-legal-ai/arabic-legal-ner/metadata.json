@@ -1,0 +1,50 @@
+{
+  "source": "Hugging Face",
+  "repository": "iahlt/arabic_legal_ner",
+  "category": "arabic-ai",
+  "sub_category": "arabic-legal-ai",
+  "asset_name": "arabic-legal-ner",
+  "tags": [
+    "arabic",
+    "legal",
+    "ner",
+    "nlp"
+  ],
+  "augmentation": [
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.96,
+      "market_fit": 0.61
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.99,
+      "market_fit": 0.76
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.99,
+      "market_fit": 0.65
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.93,
+      "market_fit": 0.71
+    },
+    {
+      "type": "strategic_enrichment_v3",
+      "method": "market_fit_scoring",
+      "timestamp": "2024-05-22",
+      "strategic_value": 0.96,
+      "market_fit": 0.88
+    }
+  ]
+}
